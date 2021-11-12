@@ -117,10 +117,10 @@ const App = () => {
           <Text
             style={{
               fontWeight: 'bold',
-              fontSize: 20,
-              color: '#1f145c',
+              fontSize: 35,
+              color: 'teal',
             }}>
-            TODO APP
+            TODO LIST APP
           </Text>
           <Icon name="delete" size={25} color="red" onPress={clearAllTodos} />
         </View>

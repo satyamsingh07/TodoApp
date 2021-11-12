@@ -3,7 +3,7 @@ import { StyleSheet, Platform, StatusBar } from 'react-native'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: white,
+        backgroundColor: 'white',
         paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0
 
 
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 20,
-        backgroundColor: '#fff',
+        backgroundColor: 'black',
     },
     inputContainer: {
         height: 50,
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     iconContainer: {
         height: 50,
         width: 50,
-        backgroundColor: '#1f145c',
+        backgroundColor: 'blue',
         elevation: 40,
         borderRadius: 25,
         justifyContent: 'center',
